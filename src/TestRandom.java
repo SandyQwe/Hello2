@@ -39,6 +39,6 @@ public class TestRandom {
         System.out.println("Мощность выборки (всего случайных чисел): " + range);
         System.out.println("Среднее: " + middleRandom);
         System.out.println("Всего нулей (0): " + countZero + "\n" + "Всего сотен (100): " + countHundred + "\n" + "Одинаковые подряд (хх):" + countEquals + "\n" + "Три одинаковые подряд (ххх): " + countPast);
-        //System.out.println("Спасибо за использование теста!" + "\n");
+        System.out.println("Спасибо за использование теста!" + "\n");
     }
 }
