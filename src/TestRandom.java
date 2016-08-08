@@ -35,6 +35,7 @@ public class TestRandom {
             }
         }
         middleRandom = middleRandom / range;
+        System.out.println("Тестирование адекватности генератора случайных чисел" + "\n");
         System.out.println("Мощность выборки (всего случайных чисел): " + range);
         System.out.println("Среднее: " + middleRandom);
         System.out.println("Всего нулей (0): " + countZero + "\n" + "Всего сотен (100): " + countHundred + "\n" + "Одинаковые подряд (хх):" + countEquals + "\n" + "Три одинаковые подряд (ххх): " + countPast);
