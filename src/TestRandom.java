@@ -11,7 +11,7 @@ public class TestRandom {
                 countHundred = 0, //счетчик сотен в выборке
                 countEquals = 0,    //счетчик одинаковых чисел стоящих рядом в выборке
                 countPast = 0; //счетчик трех одинаковых чисел стоящих рядом в выборке
-        int range = 1000;    //мощность выборки (количество бросков кубика)
+        int range = 100000;    //мощность выборки (количество бросков кубика)
         int lastK = 0;  //переменная для сравнения рядом стоящих чисел в выборке
         int pastK = 1;  //переменная для сравнения трёх рядом стоящих чисел
         for (int i = 0; i <= range; i++) {
@@ -35,7 +35,7 @@ public class TestRandom {
             }
         }
         middleRandom = middleRandom / range;
-        System.out.println(middleRandom);
-        System.out.println("Zeroes: " + countZero + "\n" + "Hundred: " + countHundred + "\n" + "Equals:" + countEquals + "\n" + "Three in the line: " + countPast);
+        System.out.println("Среднее: " + middleRandom);
+        System.out.println("Нули: " + countZero + "\n" + "Сотни: " + countHundred + "\n" + "Одинаковые подряд:" + countEquals + "\n" + "Три одинаковые подряд: " + countPast);
     }
 }
