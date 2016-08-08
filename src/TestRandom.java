@@ -36,6 +36,6 @@ public class TestRandom {
         }
         middleRandom = middleRandom / range;
         System.out.println("Среднее: " + middleRandom);
-        System.out.println("Нули: " + countZero + "\n" + "Сотни: " + countHundred + "\n" + "Одинаковые подряд:" + countEquals + "\n" + "Три одинаковые подряд: " + countPast);
+        System.out.println("Всего нулей: " + countZero + "\n" + "Всего сотен (100): " + countHundred + "\n" + "Одинаковые подряд:" + countEquals + "\n" + "Три одинаковые подряд: " + countPast);
     }
 }
